@@ -1,12 +1,28 @@
 <!DOCTYPE html>
+<html lang="zh-TW">                                  <!--語言-->
 <html>
-    <head>
-        <meta charset="UTF-8"></meta>
-        <title>A120E103</title>
+    <head>                                           <!--標題或樣式存取-->
+        <meta charset="UTF-8"></meta> 
+        <title>A120E103</title>                      <!--網頁名稱-->  
 
-    </head>
+    </head> 
     <body>
-    <h1>A120E103</h1>
-    
+    <h1>A120E103</h1>                                <!--h1通常是網頁主題-->
+    <p>hello                                         <!--輸入內文(形成獨立區塊)-->
+    <br>                                             <!--斷行-->
+    world
+    </p>                              
+    <a href="(網址>">點擊名稱</a>                     <!--a為超連結網址建立-->
+    <ol>                                             <!--ol建立列表-->
+        <li>項目</li>                                 <!--ol建立數字列表-->
+        <li>項目</li>
+        <li>項目</li>
+    </ol>
+    <ul>                                             <!--ul建立列表-->
+        <li>項目</li>                                 <!--ul建立●列表-->
+        <li>項目</li>
+        <li>項目</li>
+    </ul>
+    <img src="圖片路徑或網址" alt="圖片名稱">          <!--圖片-->
     </body>
 </html>
