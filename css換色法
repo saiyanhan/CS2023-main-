@@ -1,5 +1,25 @@
-1
+1.
 <h1 style:"color=red">內文</h2>
 <p style:"blue">內文</p>
-h1{color:black;}
-
+2.
+<head>
+  <style>
+    h1{color:black;}
+    p{color:red;
+      font-size:60px;
+      }
+  </style>
+</head>
+3.建議作法
+step1.建立css檔案 檔名.css結尾 example:style.css    <!--注意css檔是否以UTF8編譯-->
+h1{
+    color:red;
+}
+p{
+    color:blue;
+    font-size:60px;
+}
+step2.在html引入css檔
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
