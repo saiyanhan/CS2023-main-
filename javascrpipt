@@ -1,0 +1,7 @@
+檔名:javascript.js
+document.write("hello")
+document.write("<br>")
+document.write("<br>")
+document.write(",world")
+
+html引入
